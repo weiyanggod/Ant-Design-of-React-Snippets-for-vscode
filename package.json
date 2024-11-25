@@ -3,9 +3,14 @@
   "publisher": "weiyang",
   "displayName": "Ant Design of React Snippets",
   "description": "Ant Design 代码片段",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.95.0"
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weiyanggod/Ant-Design-of-React-Snippets-for-vscode.git"
   },
   "categories": [
     "Snippets"

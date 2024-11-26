@@ -676,7 +676,7 @@
   },
   "Space": {
     "prefix": "antSpace",
-    "body": ["<Space>\r", "</Space>"],
+    "body": ["<Space>\r", "  \"$1\"\r", "</Space>"],
     "description": "间距"
   },
   "Splitter": {
@@ -687,7 +687,8 @@
       "         <Desc text='First' />\r",
       "     </Splitter.Panel>\r",
       "     <Splitter.Panel>\r",
-      "                       ",
+      "              \"$1\"\r",
+      "     </Splitter.Panel>\r",
       "</Splitter>",
       ""
     ],
